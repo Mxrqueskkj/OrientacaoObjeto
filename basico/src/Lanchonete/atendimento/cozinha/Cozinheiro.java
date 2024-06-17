@@ -1,4 +1,4 @@
-package Lanchonete;
+package Lanchonete.atendimento.cozinha;
 
 public class Cozinheiro {
     public void adicionarLancheNoBalcao(){
@@ -11,38 +11,35 @@ public class Cozinheiro {
         adicionarLancheNoBalcao();
         adicionarSucoNoBalcao();
     }
-    public void prepararLanche(){
+    private void prepararLanche(){
         System.out.println("PREPARANDO LANCHE TIPO HAMBURGUER");
     }
-    public void prepararVitanima(){
+    private void prepararVitanima(){
         System.out.println("PREPARANDO SUCO");
     }
-    public void prepararCombo(){
+    private void prepararCombo(){
         prepararLanche();
         prepararVitanima();
     }
-    public void selecionarIngredientesLanche(){
+    private void selecionarIngredientesLanche(){
         System.out.println("SELECIONANDO O PÃO, SALADA, OVO, CARNE");
     }
-    public void  selecionarIngredientesVitamina(){
+    private void  selecionarIngredientesVitamina(){
         System.out.println("SELECIONANDO FRUTA, LEITE, SUCO");
     }
-    public void lavarIngredientes(){
+    private void lavarIngredientes(){
         System.out.println("LAVANDO INGREDIENTES");
     }
-    public void baterVitanimaLiquidificador(){
+    private void baterVitanimaLiquidificador(){
         System.out.println("BATENDO VITAMINA NO LIQUIDIFICADOR");
     }
-    public void fritarIngredienteslanche(){
+    private void fritarIngredienteslanche(){
         System.out.println("FRITANDO A CARNE E O OVO PARA O HAMBURGUER");
     }
-    public void pedirParaTrocarGas(Atendente meuAmigo){
+    private void pedirParaTrocarGas(Almoxarife meuAmigo){
         meuAmigo.trocarGas();
     }
-    public void pedirParaTrocarGas(Almoxarife meuAmigo){
-        meuAmigo.trocarGas();
-    }
-    public void pedirIngredientes(Almoxarife almoxarife){
+    private void pedirIngredientes(Almoxarife almoxarife){
         almoxarife.entregarIngredientes();
     }
 }
