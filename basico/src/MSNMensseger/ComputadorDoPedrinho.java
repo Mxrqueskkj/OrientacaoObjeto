@@ -6,5 +6,6 @@ public class ComputadorDoPedrinho {
 
         msn.enviarMensagem();
         msn.receberMensagem();
+        System.out.println("ta certo?");
     }
 }
