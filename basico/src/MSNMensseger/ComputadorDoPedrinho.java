@@ -1,5 +1,7 @@
 package MSNMensseger;
 
+import javax.swing.*;
+
 public class ComputadorDoPedrinho {
     public static void main(String[] args) {
         MSNMensseger msn = new MSNMensseger();
@@ -7,5 +9,6 @@ public class ComputadorDoPedrinho {
         msn.enviarMensagem();
         msn.receberMensagem();
         System.out.println("ta certo?");
+
     }
 }
