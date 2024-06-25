@@ -1,4 +1,9 @@
 package MSNMensseger;
+import MSNMensseger.apps.FacebookMenseger;
+import MSNMensseger.apps.MSNMensseger;
+import MSNMensseger.apps.ServicoPai;
+import MSNMensseger.apps.Telegram;
+
 import java.util.Scanner;
 import javax.swing.*;
 
@@ -13,7 +18,7 @@ public class ComputadorDoPedrinho {
             smi = new MSNMensseger();
         } else if (appEscolhido.equals("fgm")){
             smi = new FacebookMenseger();
-        } else if (appEscolhido.equals(tlg)){
+        } else if (appEscolhido.equals("tlg")){
             smi = new Telegram();
         }
 
